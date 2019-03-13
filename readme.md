@@ -1,1 +1,1 @@
-https://meulymooh.github.io/suzanne-collins/index.html
+https://meulymooh.github.io/suzanne-collins/
