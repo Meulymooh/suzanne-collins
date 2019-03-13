@@ -1,0 +1,128 @@
+/* BASIC STYLING */
+
+html, body { 
+	background-color: #e6e6e6; 
+	margin:0;
+    padding:0;
+} 
+
+h1 { 
+	font-family: 'Anton', sans-serif;
+	color: black;
+	letter-spacing: 2px;
+}
+
+h5 {
+	font-family: 'Noto Sans', sans-serif;
+	color: #800000;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+ /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+ul {
+  list-style-type: circle;
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* BLOCKS */
+
+.navbar {
+  background-color: #e6e6e6; 
+  padding-top: 10px;
+ }
+
+.navbar-nav > li > a {
+padding-right: 25px !important;
+padding-left: 25px !important;
+}
+
+.vertical-center {
+    min-height: 100%; 
+    display: flex;
+    align-items: center;
+    }
+
+.container-fluid {
+	background-color: #e6e6e6; 
+	display: block;
+	margin: auto;
+}
+
+.name {
+	padding-top: 10px;
+}
+
+.img-responsive {
+ margin: 0 auto;
+}
+
+.row-top {
+	width: 100%;
+}
+
+.row-bottom {
+	width: 100%;
+}
+
+.left {
+	background-color: #ffffff;
+	border: 1px solid black;
+}
+
+.right {
+	background-color: #e6e6e6; 	
+	border: 1px solid black;	
+}
+
+.row-1-left {
+	display: block;
+	margin: 5%;
+}
+
+.photo {
+  max-width: 90%;
+  height: auto;
+}
+
+.row-2-left {
+	margin: 10%;
+}
+
+.icon-social {
+	width: 30px;
+    height: 30px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.icon-amazon {
+	width: 110px;
+    height: 80px;
+  	display: block;
+	margin: auto;
+}
