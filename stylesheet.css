@@ -197,29 +197,23 @@ ul {
 
 .container-card {
 	margin: 0 auto;
+	width: 100%;
 }
 
 
 .card {
-	padding: 0px 0px 8px 0px;
-	width: 80%;
-}
-
-.card-img {
-	padding-bottom: 10px;
-}
-
-.p-card-img {
-	padding-bottom: 15px;
+	padding: 0px 0px 12px 0px;
+	width: 100%;
 }
 
 .p-card {
+	width: 100%;
 	padding-top: 15px;
-	min-height: 190px;
+	min-height: 120px;
 }
 
 .book {
-	max-width: 110%;
+	max-width: 100%;
 	height: auto;
 }
 
