@@ -19,9 +19,10 @@ h1 {
 }
 
 .h5-title {
-	font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Serif JP', serif;
 	color: black;
 	font-weight: bold;
+	font-size: large;
 }
 
 .p-title {
@@ -97,7 +98,8 @@ ul {
 	background-color: #e6e6e6; 
 	display: block;
 	margin-top: 2%;
-	width: 95%;
+	margin-bottom: 2%;
+	max-width: 80%;
 }
 
 /* CONTAINER &  MAIN ROW */
@@ -122,7 +124,6 @@ ul {
 
 .left {
 	background-color: #ffffff;
-	border: 1px solid black;
 }
 
 .name {
@@ -134,18 +135,21 @@ ul {
 	height: auto;
 }
 
-.img-responsive {
-	margin: 0 auto;
-}
-
-
 .row-1-left {
 	display: block;
 	margin: 5%;
 }
 
 .row-2-left {
-	margin: 10%;
+	margin-top: 5%;
+}
+
+.row-3-left {
+	padding-top: 15%;
+}
+
+.row-4-left {
+	padding-top: 15%;
 }
 
 .icon {
@@ -167,12 +171,10 @@ ul {
 	margin: auto;
 }
 
-/* COL. RIGHT */
+/* COL. RIGHT INDEX*/
 
 .right {
 	background-color: #e6e6e6; 	
-	border: 1px solid black;
-	margin: 0 auto;	
 }
 
 .row-1-right {
@@ -191,6 +193,36 @@ ul {
 	padding: 15px 0 5px 0;	
 }
 
+/* CARDS (BOOKS) INDEX */
+
+.container-card {
+	margin: 0 auto;
+}
+
+
+.card {
+	padding: 0px 0px 8px 0px;
+	width: 80%;
+}
+
+.card-img {
+	padding-bottom: 10px;
+}
+
+.p-card-img {
+	padding-bottom: 15px;
+}
+
+.p-card {
+	padding-top: 15px;
+	min-height: 190px;
+}
+
+.book {
+	max-width: 110%;
+	height: auto;
+}
+
 .btn-primary {
 	color: #800000;
 	border-color: #800000;
@@ -198,6 +230,8 @@ ul {
 	font-family: 'Noto Sans', sans-serif;
 	text-align: center;
 	text-justify: inter-word;
+    width:120px;
+    padding:2px;
 }
 
 .btn-primary:hover {
@@ -207,18 +241,61 @@ ul {
 	font-family: 'Noto Sans', sans-serif;
 	text-align: center;
 	text-justify: inter-word;
+	width:120px;
+    padding:2px;
 }
 
-/* CARDS (BOOKS) */
+/* COL. RIGHT CONTACT*/
 
-.card {
-	padding: 8px 8px 8px 8px;
+.details {
+	padding-top: 90px;
 }
 
-.card-img {
-	padding-bottom: 10px;
+.map {
+	padding-top: 50px;
 }
 
-.p-card-img {
-	padding-bottom: 15px;
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.form-container {
+		background-color: #e6e6e6; 
+}
+
+.form-container {
+	border: 1px solid white;
+	margin: 2px 2px 2px 2px;
+}
+
+.btn-secondary {
+	color: grey;
+	border-color: #4d4d4d:;
+	background-color: white;
+	font-family: 'Noto Sans', sans-serif;
+    max-width:150px;
+    padding:2px;
+}
+
+.btn-secondary:hover {
+	color: white;
+	border-color: #4d4d4d;
+	background-color: #4d4d4d;
+	font-family: 'Noto Sans', sans-serif;
+    max-width:150px;
+    padding:2px;
+}
+
+.btn-secondary {
+	.margin:auto;
 }

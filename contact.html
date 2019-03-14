@@ -10,6 +10,12 @@
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+ 	<!--Contact form-->
+
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
  	<!--My CSS--> 	
  	<link href="stylesheet.css" rel="stylesheet" type="text/css">
 
@@ -100,71 +106,70 @@
 
  						</div> <!--Col left-->
 
- 						<div class="col-md-9 right"> <!--Col right-->
+ 						<div class="col-md-9 right"><!--Col right-->
 
- 							<div class="row row-1-right"><!--row 1 right-->
- 								<h5 class="h5-title">News</h5> 
- 							</div> <!--row 1 right-->
+ 							<div class="row contact-details-row"><!--Contact row-->
+ 								
+ 								<div class="col-md-3 contact"><!--Col contact details-->
 
- 							<div class="row row-2-right">
- 								<p class="p-date">03/03/2017</p> <!--row 2 right-->
- 							</div> <!--row 2 right-->
+ 									<p class="p-text details"><b>Contact details:</b><br/><br/> Suzanne Collins<br/>c/o Scholastic Inc.<br/>557 Broadway<br/>New York, NY 10012-3999<br/>United States of America</p>
 
- 							<div class="row row-3-right">
- 								<p class="p-title">"The odds are ever in their favour: Hunger Games boost grades at Phoenix Academy"</p> <!--row 2 right-->
- 							</div> <!--row 2 right-->
+ 								</div><!--Col contact details-->
 
- 							<div class="row row-4-right"><!--row 3 right-->
- 								<p class="p-text">When teacher Jodi Keats walked into her Grade 9 class at Phoenix Academy in Carmanville, N.L., in September, she knew it was going to be a demanding year. The class was a tough one — the kids told her so. They even called themselves the worst class in the school. But Keats knew the odds were in her favour. She was teaching The Hunger Games, and she knew that would capture their attention. <i> <a href="https://www.cbc.ca/news/canada/newfoundland-labrador/phoenix-academy-class-hunger-games-1.5038710">[Continue reading...]</a></i></p> 
- 							</div> <!--row 3 right-->
+ 								<div class="col-md-9"><!--Col form-->
 
- 							<div class="row row-5-right"><!--row 4 right-->
- 								<h5 class="h5-title">Featured books</h5> 
- 							</div> <!--row 4 right-->
+ 								      <div class="col-md-12 mt-3 form-container rounded">
 
- 							<div class="row row-6-right justify-content-center"><!--row 5 right-->
+        <h5 class="text-center text-success"></h5>
+        <form action="" method="post" id="form-box" class="p-2">
+          <div class="form-group input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+            </div>
+            <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-at"></i></span>
+            </div>
+            <input type="text" name="subject" class="form-control" placeholder="Enter subject" required>
+          </div>
+          <div class="form-group input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
+            </div>
+            <textarea name="msg" id="msg" class="form-control" placeholder="Write your message" cols="30" rows="4" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" name="submit" id="submit" class="btn btn-secondary btn-block" value="Send">
+          </div>
+        </form>
+      </div>
+ 								</div><!--Col form-->
 
- 								<div class="col-md-4"><!--Card 1-->
+ 							</div><!--Contact row-->
+
+ 			<div class="row contact-details-row"><!--Map row-->
+
+<div class="container-fluid">
+    <div class="map-responsive">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.7209692566666!2d-74.00041678430203!3d40.72415867933067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598ec2313fb9%3A0x2078a2c33d14430a!2sScholastic%2C+561+Broadway%2C+New+York%2C+NY+10012%2C+%C3%89tats-Unis!5e0!3m2!1sfr!2sbe!4v1552594636889" style="border:0" allowfullscreen="" width="700" height="350" frameborder="0"></iframe>
+</div>
+</div>
 
 
- 									<div class="card bg-white card-img align-items-center">
- 										<img src="img/book-1.jpg" class= "book" alt="The Hunger Games">
- 										<p class="p-card justify-content-center">Sixteen­-year­-old Katniss Everdeen regards it as a death sentence when she is forced to represent her district in the annual Hunger Games, a fight to the death on live TV...</p>
- 										<button type="button " class="btn-primary btn-primary:hover">READ MORE</button>
- 									</div>
+ 			</div>
 
- 								</div><!--Card 1-->
+ 						</div><!--Col right-->
 
- 								<div class="col-md-4 align=center"><!--Card 2-->
+ 							</div> <!--Bottom row-->
 
- 									<div class="card card-img bg-white align-items-center">
- 										<img src="img/book-2.jpg" class= "book" alt="Catching Fire">
- 										<p class="p-card">Against all odds, Katniss Everdeen has won the annual Hunger Games with fellow distric tribute Peeta Mellark. But it was a victory won by defiance of the Capitol and their harsh rules.</p>
- 										<button type="button" class="btn-primary btn-primary:hover">READ MORE</button>
- 									</div>
-
- 								</div><!--Card 2-->
-
- 								<div class="col-md-4 align=center"><!--Card 3-->
-
- 									<div class="card card-img bg-white align-items-center">
- 										<img src="img/book-3.jpg" class= "book" alt="Gregor The Overlander">
- 										<p class="p-card">When Gregor falls through a grate in his apartment building, he's hurtled into the dark Underland, a world that is on the brink of war. But his arrival is no accident...</p>
- 										<button type="button" class="btn-primary btn-primary:hover">READ MORE</button>
- 									</div>
-
- 								</div><!--Card 3-->
-
- 							</div><!--card column--> 						
-
- 							<div class="row row-7-right justify-content-center"><!--row 7 right-->
- 								<a class="nav-link" target="_blank" href="http://www.suzannecollinsbooks.com/works.htm"><h5 class="h5-nav">More books...</h5></a> 
- 							</div> <!--row 7 right-->
-
- 						</div> <!--Col right-->
-
- 					</div> <!--Bottom row-->
-
- 				</div> <!--Container-->
- 			</div> <!--Vertical align-->
- 		</body>
+ 						</div> <!--Container-->
+ 					</div> <!--Vertical align-->
+ 				</body>
