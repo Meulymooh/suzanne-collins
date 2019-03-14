@@ -50,6 +50,13 @@ h1 {
 	color: #4d4d4d;
 }
 
+.p-message {
+	font-family: 'Noto Sans', sans-serif;
+	color: #4d4d4d;
+	text-align: left;
+	padding-top: 20px;
+}
+
 /* unvisited link */
 a:link {
 	color: red;
@@ -241,27 +248,15 @@ ul {
 
 /* COL. RIGHT CONTACT*/
 
-.details {
-	padding-top: 90px;
-}
-
 .map {
 	padding-top: 50px;
 }
 
-.map-container{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
+
+.container-map {
+	padding-top: 20px;
 }
-.map-container iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
+
 
 .form-container {
 		background-color: #e6e6e6; 
@@ -279,6 +274,8 @@ position:absolute;
 	font-family: 'Noto Sans', sans-serif;
     max-width:150px;
     padding:2px;
+    text-align: center;
+
 }
 
 .btn-secondary:hover {
@@ -288,8 +285,4 @@ position:absolute;
 	font-family: 'Noto Sans', sans-serif;
     max-width:150px;
     padding:2px;
-}
-
-.btn-secondary {
-	.margin:auto;
 }

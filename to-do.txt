@@ -1,0 +1,16 @@
+Menu :
+- Links when hover
+- Change background hovered links
+
+Contact :
+- Change title form
+- Add real email address
+
+Make third page
+
+Add readme details
+
+Prepare presentation:
+- Spec paper
+- Mock-up
+- How I made the site (bootstrap, cards, form, map, menu toggle...)
