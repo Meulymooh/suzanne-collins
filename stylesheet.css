@@ -1,7 +1,7 @@
 /* BASIC STYLING */
 
 html, body { 
-	background-color: #e6e6e6; 
+	background-color: #f2f2f2;
 	margin:0;
 	padding:0;
 } 
@@ -12,49 +12,69 @@ h1 {
 	letter-spacing: 2px;
 }
 
-.h5-nav {
+h-5 {
 	font-family: 'Noto Sans', sans-serif;
+}
+
+#h5-nav  {
 	color: #800000;
 	font-weight: bold;
 }
 
-.h5-title {
+#h5-title {
     font-family: 'Noto Serif JP', serif;
 	color: black;
 	font-weight: bold;
 	font-size: large;
 }
 
-.p-title {
+p {
 	font-family: 'Noto Sans', sans-serif;
+}
+
+#p-title {
 	font-weight: bold;
 }
 
-.p-text {
-	font-family: 'Noto Sans', sans-serif;
+#p-text {
 	text-align: justify;
 	text-justify: inter-word;	
 }
 
-.p-date {
-	font-family: 'Noto Sans', sans-serif;
+#p-intro {
+	text-align: justify;
+	text-justify: inter-word;
+	padding-top: 15px;	
+}
+
+#p-date {
 	font-style: italic;
 	text-align: justify;
 	font-weight: bold;
 	text-justify: inter-word;	
 }
 
-.p-card {
-	font-family: 'Noto Sans', sans-serif;
+#p-card {
 	text-align: center;
 	color: #4d4d4d;
 }
 
-.p-message {
-	font-family: 'Noto Sans', sans-serif;
+#p-message {
 	color: #4d4d4d;
 	text-align: left;
 	padding-top: 20px;
+}
+
+#p-details {
+	text-align: justify;
+	padding: 15px 10px 10px 10px;	
+}
+
+#p-books {
+	text-align: justify;
+	text-justify: center;
+	text-justify: inter-word;
+	padding: auto;	
 }
 
 /* unvisited link */
@@ -86,7 +106,7 @@ ul {
 /* BLOCKS */
 
 .navbar {
-	background-color: #e6e6e6; 
+	background-color: #f2f2f2;
 	padding-top: 10px;
 }
 
@@ -101,15 +121,20 @@ ul {
 	align-items: center;
 }
 
+.dropdown-menu {
+	background-color: #f2f2f2; 	
+}
+
+
+/* CONTAINER &  MAIN ROW */
+
 .container-fluid {
-	background-color: #e6e6e6; 
+	background-color: #f2f2f2; 
 	display: block;
 	margin-top: 2%;
 	margin-bottom: 2%;
 	max-width: 80%;
 }
-
-/* CONTAINER &  MAIN ROW */
 
 .row {
 	margin: 0 auto;
@@ -181,7 +206,7 @@ ul {
 /* COL. RIGHT INDEX*/
 
 .right {
-	background-color: #e6e6e6; 	
+	background-color: #f2f2f2;	
 }
 
 .row-1-right {
@@ -192,37 +217,38 @@ ul {
 	padding: 15px 0 5px 0;	
 }
 
-.row-6-right {
+.row-5-right {
 	padding: 15px 0 5px 0;	
 }
 
-.row-7-right {
+.row-6-right {
 	padding: 15px 0 5px 0;	
 }
 
 /* CARDS (BOOKS) INDEX */
 
-.container-card {
-	margin: 0 auto;
-	width: 100%;
+
+.card-img-top {
+	width: 210px;
+	height: 300px;
 }
 
-
-.card {
-	padding: 0px 0px 12px 0px;
-	width: 100%;
+.card-title {
+	width: 210px;
+	height: 30px;
 }
 
-.p-card {
-	width: 100%;
-	padding-top: 15px;
-	min-height: 120px;
+.card-text {
+	width: 210px;
+	height: 180px;
 }
 
-.book {
-	max-width: 100%;
-	height: auto;
+.card-click {
+	width: 200px;
+	height: 50px;
+	color: 800000;
 }
+
 
 .btn-primary {
 	color: #800000;
@@ -259,7 +285,7 @@ ul {
 
 
 .form-container {
-		background-color: #e6e6e6; 
+		background-color: #f2f2f2;
 }
 
 .form-container {
@@ -275,7 +301,6 @@ ul {
     max-width:150px;
     padding:2px;
     text-align: center;
-
 }
 
 .btn-secondary:hover {
@@ -286,3 +311,12 @@ ul {
     max-width:150px;
     padding:2px;
 }
+
+/* BOOKS */
+
+.row-books {
+	border: 1px solid white;
+	padding: 20px;
+	margin-top: 15px;
+}
+
