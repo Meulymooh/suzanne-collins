@@ -62,11 +62,11 @@
  										<h5 id="h5-nav">Links</h5>
  									</a>
  									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
- 										<a class="dropdown-item" target="_blank" href="http://emea.scholastic.com/en"><p>Scholastic</p></a>
- 										<a class="dropdown-item" target="_blank" href="http://www.penguin.com/"><p>Penguin Group</p></a>
- 										<a class="dropdown-item" target="_blank" href="http://barnesandnoble.com/"><p>Barnes and Noble</p></a>
- 										<a class="dropdown-item" target="_blank" href="http://www.amazon.com"><p>Amazon</p></a>
- 										<a class="dropdown-item" target="_blank" href="http://www.authorsguild.org/"><p>Authors Guild</p></a>
+ 										<a class="dropdown-item" id="a-links" target="_blank" href="http://emea.scholastic.com/en"><p>Scholastic</p></a>
+ 										<a class="dropdown-item" id="a-links" target="_blank" href="http://www.penguin.com/"><p>Penguin Group</p></a>
+ 										<a class="dropdown-item" id="a-links" target="_blank" href="http://barnesandnoble.com/"><p>Barnes and Noble</p></a>
+ 										<a class="dropdown-item" id="a-links" target="_blank" href="http://www.amazon.com"><p>Amazon</p></a>
+ 										<a class="dropdown-item" id="a-links" target="_blank" href="http://www.authorsguild.org/"><p>Authors Guild</p></a>
  									</div>
  								</li>
  							</ul>
@@ -108,43 +108,31 @@
 
  					<div class="col-md-9 right"><!--Col right-->
 
- 						<div class="row contact-details-row justify-content-center"><!--Contact row-->
+ 						<div class="row contact-details-row justify-content-center"><!--Row form-->
 
- 							<div class="col-md-8 mt-3 form-container rounded">
+ 							<div class="col-md-10 form-container rounded"><!--Form container-->
 
- 								<p id="p-message"><b>LEAVE A MESSAGE</b></p>
+<div class="form-box">
+  <h5>CONTACT THE PUBLISHER</h5>
+  <form action="https://api.formbucket.com/f/c2K3QTQ" method="post">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input class="form-control" id="name" type="text" name="Name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input class="form-control" id="email" type="email" name="Email">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea class="form-control" id="message" name="Message"></textarea>
+    </div>
+    <input class="btn btn-secondary w-100" type="submit" value="Submit" />
+    </div>
+  </form>
+</div>
+ 							</div><!--Form container-->
 
- 								<h5 class="text-center text-success"></h5>
- 								<form action="" method="post" id="form-box" class="p-2">
- 									<div class="form-group input-group">
- 										<div class="input-group-prepend">
- 											<span class="input-group-text"><i class="fas fa-user"></i></span>
- 										</div>
- 										<input type="text" name="name" class="form-control" placeholder="Enter your name" required>
- 									</div>
- 									<div class="form-group input-group">
- 										<div class="input-group-prepend">
- 											<span class="input-group-text"><i class="fas fa-envelope"></i></span>
- 										</div>
- 										<input type="email" name="email" class="form-control" placeholder="Enter your email" required>
- 									</div>
- 									<div class="form-group input-group">
- 										<div class="input-group-prepend">
- 											<span class="input-group-text"><i class="fas fa-at"></i></span>
- 										</div>
- 										<input type="text" name="subject" class="form-control" placeholder="Enter subject" required>
- 									</div>
- 									<div class="form-group input-group">
- 										<div class="input-group-prepend">
- 											<span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
- 										</div>
- 										<textarea name="msg" id="msg" class="form-control" placeholder="Write your message" cols="30" rows="4" required></textarea>
- 									</div>
- 									<div class="form-group">
- 										<input type="submit" name="submit" id="submit" class="btn btn-secondary btn-block" value="Send">
- 									</div>
- 								</form>
- 							</div>
  						</div><!--Row form-->
 
  					<div class="row contact-details-row text-center"><!--Map row-->
