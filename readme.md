@@ -26,17 +26,16 @@
 
 ## To be finished / improved
 
-* The Google map on the contact page is not yet responsive.
-* The CSS code has not been optimized yet (html files have been checked via W3C Markup Validation)
+* The CSS code has not been fully optimized yet (html files have been checked via W3C Markup Validation)
 * I don't know how to associate an email to the "Submit" button of the contact form.
-* In the "Books" section, I couldn't find a good layout to present the books. 
-* I didn't manage to make the menu bar + side bar fixed. I didn't have time to look deeper, though.
-* The size of the title "Suzanne Collins" changes in Firefox but not in Chrome. I don't know how to fix it.
+* I'm not really happy with the layout of the book page. 
+* I didn't manage to make the menu bar + side bar fixed (not reloading every time I click on a new page). I didn't have time to look deeper, though.
+* The size of the title "Suzanne Collins" changes from one page to the other in Firefox, but not in Chrome. I don't know how to fix this.
 
 ## Lessons learned
 
-* Next time I won't make to many proposals during the meeting with the coach. For the contact page, I offered address, contact form, map, etc. Filip said yes to everything. :-) I don't think a map to find the publisher was really relevant.
-* Bootstrap is awesome but I use it looks like "Russian dolls" in my code (grids, nested grids, nested grids in nested grids...). It mede me crazy when I occasionally got lost.
+* Next time I won't offer too many options during the first meeting with the coach and let the client make more proposals.
+* Bootstrap is awesome but my code looks like "Russian dolls" (grids, nested grids, nested grids in nested grids...). It made me crazy and I occasionally got lost.
 * I inserted too many comments in the html code, mostly because I was lost with all the DIVs. I'll try to reduce them next time.
 * I didn't "git push" often enough.
 

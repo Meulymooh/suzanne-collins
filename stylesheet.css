@@ -81,7 +81,7 @@ p {
 .p-books {
 	text-align: justify;
 	text-justify: inter-word;
-	padding-left: 35px;	
+	margin: auto;	
 }
 
 .cover {
@@ -320,6 +320,21 @@ ul {
 	padding-top:10px;
 }
 
+.map-responsive {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;>
+height:0;
+}
+
+.map-responsive iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
 .form-box {
 	max-width: 600px;
 	margin: auto;
@@ -356,4 +371,3 @@ input, textarea,  {
 	padding: 20px;
 	margin-top: auto;
 }
-
